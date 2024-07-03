@@ -1,0 +1,176 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header nav {
+    background: #22438C;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    position: relative;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li:hover a {
+    background: #7841bb54;
+}
+
+.header {
+    background-image: url('img/cover4.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.content-section {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h1 {
+    font-size: 2em;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.content-section p {
+    font-size: 1.2em;
+    color: #666666;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.example-table {
+    margin-top: 20px;
+}
+
+.example-table h2 {
+    font-size: 1.5em;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.example-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.example-table th, .example-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.example-table th {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+.example-table td {
+    color: #666666;
+}
+
+/* New Styles for Image and Description Cells */
+
+.example-table .image-cell {
+    width: 33%;
+    vertical-align: top;
+    padding: 10px;
+    text-align: center; /* Center align images */
+}
+
+.example-table .image-cell img {
+    max-width: 100%; /* Ensure images don't exceed cell width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.example-table .description-cell {
+    width: 33%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.example-table .description-cell h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #22438C;
+}
+
+.example-table .description-cell p {
+    font-size: 1em;
+    color: #666666;
+}
+footer {
+    background-color: #22438C;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/* Button Styles */
+button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    background-color: #22438C;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}

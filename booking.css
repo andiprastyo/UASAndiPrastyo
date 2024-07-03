@@ -1,0 +1,135 @@
+body{
+    font-family: monospace;
+    margin: 0;
+    padding: 0px;
+    left: 0%;
+    background-color: #f2f2f2;
+}
+main{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+header nav {
+    background: #22438C;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    position: relative;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li:hover a {
+    background: #7841bb54;
+}
+
+.header {
+    background-image: url('img/cover3.png');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 300px 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #22438C;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666666;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #22438C;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
+/* Button Styles */
+button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    background-color: #22438C;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
